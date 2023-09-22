@@ -1,6 +1,6 @@
 import {Sequelize} from 'sequelize'
 
-const db = new Sequelize('blogs','root','1597',{
+const db = new Sequelize('new_schema','root','1597',{
 host:'localhost',
 dialect:'mysql'
 })
